@@ -1,0 +1,85 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha1": "52b89393e7b031a30077eff2859cf01e9ec3237b"
+    },
+    {
+      "path": "assets/fonts/Tektur-VariableFont_wdth,wght.ttf",
+      "sha1": "4e0acc8bcc9a85b9bf6e23ebfa76b49bf9e56142"
+    },
+    {
+      "path": "assets/fonts/static/Tektur-Black.ttf",
+      "sha1": "fa94dc5fb593513e3deac3f776bf1cfe2814b9d1"
+    },
+    {
+      "path": "assets/fonts/static/Tektur-Bold.ttf",
+      "sha1": "636ec076422f19aa4b518b231cf42ec23b133a2f"
+    },
+    {
+      "path": "assets/fonts/static/Tektur-ExtraBold.ttf",
+      "sha1": "3c9b95078dd8c1f32710e58b4a88af76ff46fc0f"
+    },
+    {
+      "path": "assets/fonts/static/Tektur-Medium.ttf",
+      "sha1": "3819e3ef60adbe0e16c1072d2843e92ac5803fc8"
+    },
+    {
+      "path": "assets/fonts/static/Tektur-Regular.ttf",
+      "sha1": "360382fa82ec9229076342451de4f14338f5032c"
+    },
+    {
+      "path": "assets/fonts/static/Tektur-SemiBold.ttf",
+      "sha1": "979cc6650d914e86289ce4554ec3e9ca6e99ea00"
+    },
+    {
+      "path": "assets/fonts/static/Tektur_Condensed-Black.ttf",
+      "sha1": "8f6a053a955c328bcb7592cd74e9d43f1256710e"
+    },
+    {
+      "path": "assets/fonts/static/Tektur_Condensed-Bold.ttf",
+      "sha1": "48784a5f63edb4e12963d21c09cf50bb104ac883"
+    },
+    {
+      "path": "assets/fonts/static/Tektur_Condensed-ExtraBold.ttf",
+      "sha1": "aade9d5c823cadcad7ca3ba4f53eb7fa846fccfa"
+    },
+    {
+      "path": "assets/fonts/static/Tektur_Condensed-Medium.ttf",
+      "sha1": "412990f1a13162f8f10ca2ae30f2360345b11e60"
+    },
+    {
+      "path": "assets/fonts/static/Tektur_Condensed-Regular.ttf",
+      "sha1": "24b9836c6ebedd00855877fb5309a0ba6293b414"
+    },
+    {
+      "path": "assets/fonts/static/Tektur_Condensed-SemiBold.ttf",
+      "sha1": "2d821e528308fdcfbcda38c4be7d2f9cffff1b38"
+    },
+    {
+      "path": "assets/fonts/static/Tektur_SemiCondensed-Black.ttf",
+      "sha1": "b526d9d8b41b1dcc6e1e5c332378778cb5a874fe"
+    },
+    {
+      "path": "assets/fonts/static/Tektur_SemiCondensed-Bold.ttf",
+      "sha1": "369ecda1c1b7ba5016988c95b256925b711a4e47"
+    },
+    {
+      "path": "assets/fonts/static/Tektur_SemiCondensed-ExtraBold.ttf",
+      "sha1": "57f6651719ccb179b88e07a237d7538c9d3f4492"
+    },
+    {
+      "path": "assets/fonts/static/Tektur_SemiCondensed-Medium.ttf",
+      "sha1": "36df131f916935aff46e807544e4c0f41cba0530"
+    },
+    {
+      "path": "assets/fonts/static/Tektur_SemiCondensed-Regular.ttf",
+      "sha1": "214df2608fc48ea498e9dad0e972ca224f9635c6"
+    },
+    {
+      "path": "assets/fonts/static/Tektur_SemiCondensed-SemiBold.ttf",
+      "sha1": "7f179d5aecff935fef9ea5ed15e3efcfa42cb8a1"
+    }
+  ]
+}

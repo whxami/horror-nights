@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "TOPMINE",
+    "serverIp": "TOPAA.MCMCMC.NET",
+    "limit": 2088
+  },
+  {
+    "id": 2,
+    "name": "PlayMine",
+    "serverIp": "best.playmine.org",
+    "limit": 1493
+  },
+  {
+    "id": 3,
+    "name": "Applecraft",
+    "serverIp": "applecraft.online",
+    "limit": 500
+  },
+  {
+    "id": 4,
+    "name": "InPVP",
+    "serverIp": "play.inpvp.net",
+    "limit": 1776
+  },
+  {
+    "id": 5,
+    "name": "SkyBars",
+    "serverIp": "MCRT.SKYBARS.ME",
+    "limit": 4444
+  },
+  {
+    "id": 6,
+    "name": "AresMine",
+    "serverIp": "mr.aresmine.me",
+    "limit": 1475
+  },
+  {
+    "id": 7,
+    "name": "FunParty",
+    "serverIp": "connect.fpmc.pro",
+    "limit": 1000
+  },
+  {
+    "id": 8,
+    "name": "PlayMine",
+    "serverIp": "mc.playmine.org",
+    "limit": 1493
+  },
+  {
+    "id": 9,
+    "name": "SuperMine",
+    "serverIp": "play.mcsuper.net",
+    "limit": 465
+  },
+  {
+    "id": 10,
+    "name": "BarsMine",
+    "serverIp": "topbars.net",
+    "limit": 381
+  },
+  {
+    "id": 11,
+    "name": "SunnyWorld",
+    "serverIp": "play.sunnymc.net",
+    "limit": 748
+  },
+  {
+    "id": 12,
+    "name": "Vanilla",
+    "serverIp": "mc.vanillaplay.net",
+    "limit": 100
+  },
+  {
+    "id": 13,
+    "name": "DiamondWorld",
+    "serverIp": "mrb.diamondworld.pro",
+    "limit": 2000
+  },
+  {
+    "id": 14,
+    "name": "MigosMc",
+    "serverIp": "kc.migosmc.net",
+    "limit": 730
+  },
+  {
+    "id": 15,
+    "name": "FoxMine",
+    "serverIp": "foxmine.net",
+    "limit": 3810
+  }
+]

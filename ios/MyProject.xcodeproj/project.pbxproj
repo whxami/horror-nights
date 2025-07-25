@@ -3,36 +3,80 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C80B921A6F3F58F76C31292 /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-MyProject.a */; };
+		02406AB5669D47566D9F7F03 /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 077AFE9153916280BBA4C2F4 /* libPods-MyProject.a */; };
+		0C22514695704031BD0A2492 /* Tektur_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCA10844B4D54D61A797442A /* Tektur_Condensed-SemiBold.ttf */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		141364CB1DA7459D9F767269 /* Tektur-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5293B62E3C7B4A8D890EE798 /* Tektur-ExtraBold.ttf */; };
+		258494A2E5214C4E9E1A53BF /* Tektur-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 488D37968ACA4A51A619C49E /* Tektur-Bold.ttf */; };
+		48E1B49104D044CABD7C7BD3 /* Tektur-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F700FC5B999247208A74A278 /* Tektur-SemiBold.ttf */; };
+		4A236A5E0B7046049064F147 /* Tektur-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 921DEC362B714A58B8516152 /* Tektur-Regular.ttf */; };
+		61F44FDB0E5A47F599CB325C /* Tektur_SemiCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED6C70A47CAA48A79FC9C5D4 /* Tektur_SemiCondensed-ExtraBold.ttf */; };
+		6227EBC465EC40A3B2CBF482 /* Tektur_SemiCondensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA2F39137F004A37B5BA2E49 /* Tektur_SemiCondensed-Black.ttf */; };
+		6480EA6D74F049DBA66C8119 /* Tektur_SemiCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008DB7A687204BF699446203 /* Tektur_SemiCondensed-SemiBold.ttf */; };
+		6FAE0BA176324A6A89B3F7E6 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 566AAE9F5E0D4331AE746CDA /* OFL.txt */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7AD340233788484382F29D90 /* Tektur-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC0B7856729D4D5B933B9122 /* Tektur-Medium.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		933291CBB5444A0CBBEF1566 /* Tektur_Condensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8A8CFFBA89B47C796D15006 /* Tektur_Condensed-Medium.ttf */; };
+		98EC60CCDF4A46148B868CAC /* Tektur_Condensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F301DC9064044318823B110 /* Tektur_Condensed-ExtraBold.ttf */; };
+		A29DE80C00D847988388A199 /* Tektur_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E91EDF7F4344426A43F1470 /* Tektur_Condensed-Regular.ttf */; };
+		A43C194E2F3B4C2C84E31ABF /* Tektur_Condensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACD2A7216DAF4F218D98C199 /* Tektur_Condensed-Black.ttf */; };
+		C217B8526CB7465CB3ECD624 /* Tektur_SemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6252A808EB849E2AD587012 /* Tektur_SemiCondensed-Regular.ttf */; };
+		C323329A93C2443DB2FDA8FE /* Tektur-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52E1646486644DD8B8C3BFCA /* Tektur-Black.ttf */; };
+		D1DF68A3E0804C93A2F0D4F9 /* Tektur_SemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF5F1011A3D4676AD4FBE55 /* Tektur_SemiCondensed-Medium.ttf */; };
+		E7CD5B674A984E7F82E48F6C /* Tektur_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D89CC0CEE834ACAB892E0BB /* Tektur_SemiCondensed-Bold.ttf */; };
 		EE0F6E3A2FA6BCDB4BC5DFF0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		EED81658C9E3428A856DFDE6 /* Tektur-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83EBB7C51E7B430B97F0EEE5 /* Tektur-VariableFont_wdth,wght.ttf */; };
+		FDF8DE4B90D7484AA7AD410D /* Tektur_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 155A1CDC37BE4611BD8D2DBD /* Tektur_Condensed-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		008DB7A687204BF699446203 /* Tektur_SemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur_SemiCondensed-SemiBold.ttf"; path = "../assets/fonts/static/Tektur_SemiCondensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		077AFE9153916280BBA4C2F4 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyProject/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = MyProject/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.debug.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		155A1CDC37BE4611BD8D2DBD /* Tektur_Condensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur_Condensed-Bold.ttf"; path = "../assets/fonts/static/Tektur_Condensed-Bold.ttf"; sourceTree = "<group>"; };
+		157BF187E8102C174593578F /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
+		2DF5F1011A3D4676AD4FBE55 /* Tektur_SemiCondensed-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur_SemiCondensed-Medium.ttf"; path = "../assets/fonts/static/Tektur_SemiCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		488D37968ACA4A51A619C49E /* Tektur-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur-Bold.ttf"; path = "../assets/fonts/static/Tektur-Bold.ttf"; sourceTree = "<group>"; };
+		5293B62E3C7B4A8D890EE798 /* Tektur-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur-ExtraBold.ttf"; path = "../assets/fonts/static/Tektur-ExtraBold.ttf"; sourceTree = "<group>"; };
+		52E1646486644DD8B8C3BFCA /* Tektur-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur-Black.ttf"; path = "../assets/fonts/static/Tektur-Black.ttf"; sourceTree = "<group>"; };
+		566AAE9F5E0D4331AE746CDA /* OFL.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OFL.txt; path = ../assets/fonts/OFL.txt; sourceTree = "<group>"; };
+		6D89CC0CEE834ACAB892E0BB /* Tektur_SemiCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur_SemiCondensed-Bold.ttf"; path = "../assets/fonts/static/Tektur_SemiCondensed-Bold.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MyProject/AppDelegate.swift; sourceTree = "<group>"; };
+		7F301DC9064044318823B110 /* Tektur_Condensed-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur_Condensed-ExtraBold.ttf"; path = "../assets/fonts/static/Tektur_Condensed-ExtraBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83EBB7C51E7B430B97F0EEE5 /* Tektur-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur-VariableFont_wdth,wght.ttf"; path = "../assets/fonts/Tektur-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
+		8E91EDF7F4344426A43F1470 /* Tektur_Condensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur_Condensed-Regular.ttf"; path = "../assets/fonts/static/Tektur_Condensed-Regular.ttf"; sourceTree = "<group>"; };
+		921DEC362B714A58B8516152 /* Tektur-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur-Regular.ttf"; path = "../assets/fonts/static/Tektur-Regular.ttf"; sourceTree = "<group>"; };
+		AA2F39137F004A37B5BA2E49 /* Tektur_SemiCondensed-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur_SemiCondensed-Black.ttf"; path = "../assets/fonts/static/Tektur_SemiCondensed-Black.ttf"; sourceTree = "<group>"; };
+		ACD2A7216DAF4F218D98C199 /* Tektur_Condensed-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur_Condensed-Black.ttf"; path = "../assets/fonts/static/Tektur_Condensed-Black.ttf"; sourceTree = "<group>"; };
+		CC0B7856729D4D5B933B9122 /* Tektur-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur-Medium.ttf"; path = "../assets/fonts/static/Tektur-Medium.ttf"; sourceTree = "<group>"; };
+		CCA10844B4D54D61A797442A /* Tektur_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur_Condensed-SemiBold.ttf"; path = "../assets/fonts/static/Tektur_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		D6252A808EB849E2AD587012 /* Tektur_SemiCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur_SemiCondensed-Regular.ttf"; path = "../assets/fonts/static/Tektur_SemiCondensed-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED6C70A47CAA48A79FC9C5D4 /* Tektur_SemiCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur_SemiCondensed-ExtraBold.ttf"; path = "../assets/fonts/static/Tektur_SemiCondensed-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F700FC5B999247208A74A278 /* Tektur-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur-SemiBold.ttf"; path = "../assets/fonts/static/Tektur-SemiBold.ttf"; sourceTree = "<group>"; };
+		F8A8CFFBA89B47C796D15006 /* Tektur_Condensed-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tektur_Condensed-Medium.ttf"; path = "../assets/fonts/static/Tektur_Condensed-Medium.ttf"; sourceTree = "<group>"; };
+		F8B1E4B57D140DA291DED644 /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.debug.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		749668502E33C0D000567333 /* wallpapers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = wallpapers; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-MyProject.a in Frameworks */,
+				02406AB5669D47566D9F7F03 /* libPods-MyProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +86,7 @@
 		13B07FAE1A68108700A75B9A /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
+				749668502E33C0D000567333 /* wallpapers */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				761780EC2CA45674006654EE /* AppDelegate.swift */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
@@ -51,11 +96,38 @@
 			name = MyProject;
 			sourceTree = "<group>";
 		};
+		25B0E811A400482C8266F18E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83EBB7C51E7B430B97F0EEE5 /* Tektur-VariableFont_wdth,wght.ttf */,
+				52E1646486644DD8B8C3BFCA /* Tektur-Black.ttf */,
+				488D37968ACA4A51A619C49E /* Tektur-Bold.ttf */,
+				5293B62E3C7B4A8D890EE798 /* Tektur-ExtraBold.ttf */,
+				CC0B7856729D4D5B933B9122 /* Tektur-Medium.ttf */,
+				921DEC362B714A58B8516152 /* Tektur-Regular.ttf */,
+				F700FC5B999247208A74A278 /* Tektur-SemiBold.ttf */,
+				ACD2A7216DAF4F218D98C199 /* Tektur_Condensed-Black.ttf */,
+				155A1CDC37BE4611BD8D2DBD /* Tektur_Condensed-Bold.ttf */,
+				7F301DC9064044318823B110 /* Tektur_Condensed-ExtraBold.ttf */,
+				F8A8CFFBA89B47C796D15006 /* Tektur_Condensed-Medium.ttf */,
+				8E91EDF7F4344426A43F1470 /* Tektur_Condensed-Regular.ttf */,
+				CCA10844B4D54D61A797442A /* Tektur_Condensed-SemiBold.ttf */,
+				AA2F39137F004A37B5BA2E49 /* Tektur_SemiCondensed-Black.ttf */,
+				6D89CC0CEE834ACAB892E0BB /* Tektur_SemiCondensed-Bold.ttf */,
+				ED6C70A47CAA48A79FC9C5D4 /* Tektur_SemiCondensed-ExtraBold.ttf */,
+				2DF5F1011A3D4676AD4FBE55 /* Tektur_SemiCondensed-Medium.ttf */,
+				D6252A808EB849E2AD587012 /* Tektur_SemiCondensed-Regular.ttf */,
+				008DB7A687204BF699446203 /* Tektur_SemiCondensed-SemiBold.ttf */,
+				566AAE9F5E0D4331AE746CDA /* OFL.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-MyProject.a */,
+				077AFE9153916280BBA4C2F4 /* libPods-MyProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -75,6 +147,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				25B0E811A400482C8266F18E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -92,8 +165,8 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-MyProject.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-MyProject.release.xcconfig */,
+				F8B1E4B57D140DA291DED644 /* Pods-MyProject.debug.xcconfig */,
+				157BF187E8102C174593578F /* Pods-MyProject.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -105,17 +178,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyProject" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				833CBB579FA3C00A2EB04611 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				2FB0B19A65783B266B558882 /* [CP] Embed Pods Frameworks */,
+				D12B6A23D5ED2391630F1853 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				749668502E33C0D000567333 /* wallpapers */,
 			);
 			name = MyProject;
 			productName = MyProject;
@@ -161,6 +237,26 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				EE0F6E3A2FA6BCDB4BC5DFF0 /* PrivacyInfo.xcprivacy in Resources */,
+				EED81658C9E3428A856DFDE6 /* Tektur-VariableFont_wdth,wght.ttf in Resources */,
+				C323329A93C2443DB2FDA8FE /* Tektur-Black.ttf in Resources */,
+				258494A2E5214C4E9E1A53BF /* Tektur-Bold.ttf in Resources */,
+				141364CB1DA7459D9F767269 /* Tektur-ExtraBold.ttf in Resources */,
+				7AD340233788484382F29D90 /* Tektur-Medium.ttf in Resources */,
+				4A236A5E0B7046049064F147 /* Tektur-Regular.ttf in Resources */,
+				48E1B49104D044CABD7C7BD3 /* Tektur-SemiBold.ttf in Resources */,
+				A43C194E2F3B4C2C84E31ABF /* Tektur_Condensed-Black.ttf in Resources */,
+				FDF8DE4B90D7484AA7AD410D /* Tektur_Condensed-Bold.ttf in Resources */,
+				98EC60CCDF4A46148B868CAC /* Tektur_Condensed-ExtraBold.ttf in Resources */,
+				933291CBB5444A0CBBEF1566 /* Tektur_Condensed-Medium.ttf in Resources */,
+				A29DE80C00D847988388A199 /* Tektur_Condensed-Regular.ttf in Resources */,
+				0C22514695704031BD0A2492 /* Tektur_Condensed-SemiBold.ttf in Resources */,
+				6227EBC465EC40A3B2CBF482 /* Tektur_SemiCondensed-Black.ttf in Resources */,
+				E7CD5B674A984E7F82E48F6C /* Tektur_SemiCondensed-Bold.ttf in Resources */,
+				61F44FDB0E5A47F599CB325C /* Tektur_SemiCondensed-ExtraBold.ttf in Resources */,
+				D1DF68A3E0804C93A2F0D4F9 /* Tektur_SemiCondensed-Medium.ttf in Resources */,
+				C217B8526CB7465CB3ECD624 /* Tektur_SemiCondensed-Regular.ttf in Resources */,
+				6480EA6D74F049DBA66C8119 /* Tektur_SemiCondensed-SemiBold.ttf in Resources */,
+				6FAE0BA176324A6A89B3F7E6 /* OFL.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +279,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		2FB0B19A65783B266B558882 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,16 +287,20 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyProject/Pods-MyProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyProject/Pods-MyProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyProject/Pods-MyProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		833CBB579FA3C00A2EB04611 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,7 +322,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		D12B6A23D5ED2391630F1853 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -230,9 +330,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyProject/Pods-MyProject-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyProject/Pods-MyProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -255,7 +359,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-MyProject.debug.xcconfig */;
+			baseConfigurationReference = F8B1E4B57D140DA291DED644 /* Pods-MyProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -283,7 +387,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-MyProject.release.xcconfig */;
+			baseConfigurationReference = 157BF187E8102C174593578F /* Pods-MyProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -376,10 +480,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -448,10 +549,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Crimson Hunter",
+    "description": "A stylish hero in a scarlet coat and black combat gear. White hair and piercing blue eyes give him the charisma of a hunter fighting evil in any dimension.",
+    "extraLikes": 115,
+    "extraFavourites": 169,
+    "extraDownloads": 128,
+    "extraFileWeight": "4,04 Kb",
+    "rating": 4.6
+  },
+  {
+    "id": 2,
+    "name": "A duck in a suit",
+    "description": "An elegant duck in a black business suit with a red tie and a stylish hat. The perfect choice for those who want to add a little humor and solidity to adventures.",
+    "extraLikes": 178,
+    "extraFavourites": 136,
+    "extraDownloads": 181,
+    "extraFileWeight": "1,73 Kb",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "name": "Half mask",
+    "description": "A mysterious character in a green hoodie and with a half-hidden face. The perfect skin for those who like to stay in the shadows while maintaining style and mystery.",
+    "extraLikes": 116,
+    "extraFavourites": 152,
+    "extraDownloads": 139,
+    "extraFileWeight": "1,73 Kb",
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "name": "The Shadow Demon",
+    "description": "A dark and terrifying appearance with demonic horns and dark skin tones. Suitable for players who want to inspire fear and mystery in nighttime adventures.",
+    "extraLikes": 171,
+    "extraFavourites": 156,
+    "extraDownloads": 124,
+    "extraFileWeight": "2,18 Kb",
+    "rating": 4.9
+  },
+  {
+    "id": 5,
+    "name": "Pumpkinhead",
+    "description": "The classic image of a pumpkinhead in a stylish black suit with a red tie and colorful accents. Perfect for Halloween parties or dark themed servers.",
+    "extraLikes": 163,
+    "extraFavourites": 112,
+    "extraDownloads": 171,
+    "extraFileWeight": "4,39 Kb",
+    "rating": 4.8
+  },
+  {
+    "id": 6,
+    "name": "The Neon Wolf",
+    "description": "A bright skin of a girl with wolf ears, violet-blue hair and emerald eyes. A stylish green sweatshirt, plaid leggings and a rich palette add a bold and mysterious character to the look.",
+    "extraLikes": 179,
+    "extraFavourites": 142,
+    "extraDownloads": 167,
+    "extraFileWeight": "2,01 Kb",
+    "rating": 4.9
+  },
+  {
+    "id": 7,
+    "name": "Rainbow Rebel",
+    "description": "A girl in a black hoodie with neon accents and bright pink and purple hair. The skin reflects an energetic and courageous nature, not afraid to stand out from the crowd.",
+    "extraLikes": 162,
+    "extraFavourites": 114,
+    "extraDownloads": 174,
+    "extraFileWeight": "2,73 Kb",
+    "rating": 4.7
+  },
+  {
+    "id": 8,
+    "name": "Pumpkin Queen",
+    "description": "Stylish autumn heroine with long brown hair and pumpkin mask. This skin is perfect for Halloween adventures and dark fantasy worlds.",
+    "extraLikes": 114,
+    "extraFavourites": 163,
+    "extraDownloads": 182,
+    "extraFileWeight": "1,45 Kb",
+    "rating": 4.9
+  },
+  {
+    "id": 9,
+    "name": "The Cold Skeleton",
+    "description": "A chilling skeleton skin with shining blue hues. This character is perfect for a winter or gloomy theme, evoking a feeling of coldness and mystery. It looks like an animated bone frozen in ice.",
+    "extraLikes": 142,
+    "extraFavourites": 136,
+    "extraDownloads": 182,
+    "extraFileWeight": "2,34 Kb",
+    "rating": 4.5
+  },
+  {
+    "id": 10,
+    "name": "The Fiery Lord",
+    "description": "This skin combines metal armor with a flaming mask that radiates heat and danger. His appearance resembles a lava lord or a fire demon encased in armor. Perfect for players who are ready to fight in hell.",
+    "extraLikes": 110,
+    "extraFavourites": 126,
+    "extraDownloads": 147,
+    "extraFileWeight": "3,33 Kb",
+    "rating": 4.9
+  },
+  {
+    "id": 11,
+    "name": "The Blue Arcanist",
+    "description": "A mysterious magician in a dark blue hood and combat vestments with gold inserts. His sparkling eyes and hidden face inspire fear and respect. This skin is perfect for players who prefer arcane arts, magic, and shadow missions.",
+    "extraLikes": 174,
+    "extraFavourites": 136,
+    "extraDownloads": 158,
+    "extraFileWeight": "6,68 Kb",
+    "rating": 4.8
+  },
+  {
+    "id": 12,
+    "name": "Cyber",
+    "description": "An ultra-stylish skin with neon green accents and a techno-style mask. It is ideal for cyberpunk settings and players who want to stand out in a crowd while remaining mysterious and daring.",
+    "extraLikes": 149,
+    "extraFavourites": 163,
+    "extraDownloads": 172,
+    "extraFileWeight": "3,14 Kb",
+    "rating": 4.7
+  },
+  {
+    "id": 13,
+    "name": "The Neon Hacker",
+    "description": "Dark skin with bright turquoise accents, creating an atmosphere of technological underground. Perfect for players who want to look like a master of the digital world — stealthy, fast and stylish.",
+    "extraLikes": 172,
+    "extraFavourites": 184,
+    "extraDownloads": 139,
+    "extraFileWeight": "3,21 Kb",
+    "rating": 4.9
+  },
+  {
+    "id": 14,
+    "name": "The Arctic Soldier",
+    "description": "A special forces soldier in camouflage for harsh snowy conditions. The orange eye protection and armor emphasize his readiness for any mission. An ideal choice for tactical operations and role-playing games.",
+    "extraLikes": 129,
+    "extraFavourites": 148,
+    "extraDownloads": 179,
+    "extraFileWeight": "4,18 Kb",
+    "rating": 5.0
+  },
+  {
+    "id": 15,
+    "name": "The Desert Ranger",
+    "description": "An adventurer in sand-colored armor with protective glasses and a bandage on his face. Suitable for harsh environment survival, desert exploration, and epic missions.",
+    "extraLikes": 169,
+    "extraFavourites": 115,
+    "extraDownloads": 172,
+    "extraFileWeight": "3,32 Kb",
+    "rating": 4.8
+  }
+]

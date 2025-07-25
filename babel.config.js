@@ -25,5 +25,11 @@ module.exports = {
         allowUndefined: true,
       },
     ],
+    [
+      'react-native-reanimated/plugin',
+      {
+        globals: ['__scanCodes'],
+      },
+    ],
   ],
 };

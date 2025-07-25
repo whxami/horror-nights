@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "name": "A hammer for mining",
+    "description": "The mod adds an advanced hammer for fast and efficient block mining by area.",
+    "extraLikes": 126,
+    "extraFavourites": 178,
+    "extraDownloads": 144,
+    "extraFileWeight": "231 Kb",
+    "rating": 4.6,
+    "version": "1.21.81, 1.21.80, 1.21.73, 1.21.70"
+  },
+  {
+    "id": 2,
+    "name": "Aerial Magic and Dungeons",
+    "description": "With the mod, various abilities based on air magic will appear.",
+    "extraLikes": 179,
+    "extraFavourites": 124,
+    "extraDownloads": 198,
+    "extraFileWeight": "758 Kb",
+    "rating": 4.7,
+    "version": "1.21.90"
+  },
+  {
+    "id": 3,
+    "name": "Katanas",
+    "description": "The katana does not have high damage, but it can be thrown to move quickly in space.",
+    "extraLikes": 113,
+    "extraFavourites": 108,
+    "extraDownloads": 172,
+    "extraFileWeight": "28,3 Kb",
+    "rating": 4.8,
+    "version": "1.21.30"
+  },
+  {
+    "id": 4,
+    "name": "Explosive blocks",
+    "description": "Now you can play practical jokes on your friends with various booby traps.",
+    "extraLikes": 119,
+    "extraFavourites": 136,
+    "extraDownloads": 128,
+    "extraFileWeight": "766 Kb",
+    "rating": 4.5,
+    "version": "1.21.90"
+  },
+  {
+    "id": 5,
+    "name": "Urban infrastructure",
+    "description": "Expand the possibilities of construction by adding unique blocks, ideal for creating realistic urban landscapes.",
+    "extraLikes": 144,
+    "extraFavourites": 196,
+    "extraDownloads": 106,
+    "extraFileWeight": "745 Kb",
+    "rating": 4.7,
+    "version": "1.21.80, 1.21.73, 1.21.70"
+  },
+  {
+    "id": 6,
+    "name": "The Burning Nether World",
+    "description": "Here you will find new mobs, unique blocks, rare resources and powerful weapons that can only be obtained in the burning depths of hell.",
+    "extraLikes": 172,
+    "extraFavourites": 188,
+    "extraDownloads": 116,
+    "extraFileWeight": "1,64 Mb",
+    "rating": 4.9,
+    "version": "1.21.70"
+  },
+  {
+    "id": 7,
+    "name": "Food blocks and furniture",
+    "description": "The game will feature new food blocks: pizza, plates, cups, bowls, cutlery, kitchen tools, and even a wedding cake.",
+    "extraLikes": 182,
+    "extraFavourites": 162,
+    "extraDownloads": 125,
+    "extraFileWeight": "1,36 Mb",
+    "rating": 5.0,
+    "version": "1.21.80"
+  },
+  {
+    "id": 8,
+    "name": "Island of Sweets",
+    "description": "A fabulous biome where everything is made of sweets — from the ground to the trees. This is a real paradise for lovers of desserts, color and creativity!",
+    "extraLikes": 119,
+    "extraFavourites": 128,
+    "extraDownloads": 109,
+    "extraFileWeight": "992 Kb",
+    "rating": 4.6,
+    "version": "1.14"
+  },
+  {
+    "id": 9,
+    "name": "Lightning Magic",
+    "description": "Immerse yourself in battles, hitting enemies with powerful blows, and use heavenly power to soar into the air and conquer lands.",
+    "extraLikes": 147,
+    "extraFavourites": 169,
+    "extraDownloads": 123,
+    "extraFileWeight": "880 Kb",
+    "rating": 4.7,
+    "version": "1.21.90"
+  },
+  {
+    "id": 10,
+    "name": "Cat Armor",
+    "description": "A unique armor in the form of a cat suit, which has diamond strength.",
+    "extraLikes": 183,
+    "extraFavourites": 114,
+    "extraDownloads": 172,
+    "extraFileWeight": "730 Kb",
+    "rating": 4.9,
+    "version": "1.21.81, 1.21.80, 1.21.73, 1.21.70"
+  },
+  {
+    "id": 11,
+    "name": "Lamps and lanterns",
+    "description": "Wooden lamps, copper lanterns and other types of light sources.",
+    "extraLikes": 117,
+    "extraFavourites": 136,
+    "extraDownloads": 171,
+    "extraFileWeight": "1,31 Mb",
+    "rating": 4.8,
+    "version": "1.21.90, 1.21.81, 1.21.80"
+  },
+  {
+    "id": 12,
+    "name": "Dark Magic",
+    "description": "Use powerful spells to subdue enemies, take away their eyesight and spread fear.",
+    "extraLikes": 136,
+    "extraFavourites": 181,
+    "extraDownloads": 192,
+    "extraFileWeight": "347 Kb",
+    "rating": 4.5,
+    "version": "1.21.90"
+  },
+  {
+    "id": 13,
+    "name": "Frost Magic",
+    "description": "Unleash your hidden cold magic abilities and aim them at your enemies.",
+    "extraLikes": 115,
+    "extraFavourites": 171,
+    "extraDownloads": 133,
+    "extraFileWeight": "347 Kb",
+    "rating": 4.8,
+    "version": "1.21.90"
+  },
+  {
+    "id": 14,
+    "name": "Monsters from the Depths",
+    "description": "Now every corner of the cubic world hides unique types of undead, adapted to their conditions.",
+    "extraLikes": 148,
+    "extraFavourites": 153,
+    "extraDownloads": 128,
+    "extraFileWeight": "430 Kb",
+    "rating": 4.7,
+    "version": "1.21.90"
+  }
+]
