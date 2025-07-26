@@ -3,6 +3,5 @@ export const enum SCREENS {
   PACKS = 'Packs',
   WALLPAPERS = 'Wallpapers',
   SERVERS = 'Servers',
-  TOP = 'Top',
   INFO = 'Info',
 }

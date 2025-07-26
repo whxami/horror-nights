@@ -1,33 +1,22 @@
 import { FC } from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 import SkinCard from 'components/Card';
 import { SKIN_IMAGES } from 'const/images';
 import { SCREENS } from 'const/screens';
 import { useNavigation } from 'hooks/useNavigation';
 import { useThemedStyles } from 'theme/ThemeProvider';
+import { BaseItem } from 'types/baseItem';
 import { InfoData } from 'types/navigationTypes';
 
 import { createStyles } from './styles';
 
-export interface SkinData {
-  id: number;
-  name: string;
-  description: string;
-  extraLikes: number;
-  extraFavourites: number;
-  extraDownloads: number;
-  extraFileWeight: string;
-  rating: number;
-}
-
 interface SkinGridProps {
-  skins: SkinData[];
-  title?: string;
+  skins: BaseItem[];
 }
 
 const SkinGrid: FC<SkinGridProps> = (props) => {
-  const { skins, title } = props;
+  const { skins } = props;
 
   const styles = useThemedStyles(createStyles);
   const navigation = useNavigation();
@@ -37,19 +26,25 @@ const SkinGrid: FC<SkinGridProps> = (props) => {
   };
 
   return (
-    <View>
-      {title && <Text style={styles.textTitle}>{title}</Text>}
-      <View style={styles.gridContainer}>
-        {skins.map((skin) => (
-          <View key={skin.id} style={styles.cardContainer}>
-            <SkinCard
-              {...skin}
-              image={SKIN_IMAGES[skin.id]}
-              onPress={() => handleSkinPress(skin)}
-            />
-          </View>
-        ))}
-      </View>
+    <View style={styles.gridContainer}>
+      {skins.map((skin, index) => (
+        <View
+          key={skin.id}
+          style={[
+            styles.cardContainer,
+            {
+              paddingRight: (index + 1) % 2 === 0 ? 0 : 6,
+              paddingLeft: (index + 1) % 2 === 0 ? 6 : 0,
+            },
+          ]}
+        >
+          <SkinCard
+            {...skin}
+            image={SKIN_IMAGES[skin.id]}
+            onPress={() => handleSkinPress(skin)}
+          />
+        </View>
+      ))}
     </View>
   );
 };

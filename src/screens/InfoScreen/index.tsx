@@ -29,6 +29,8 @@ import { SCREENS } from 'const/screens';
 import { useThemedStyles } from 'theme/ThemeProvider';
 import { InfoData, InfoScreenParams } from 'types/navigationTypes';
 
+import TryOthers from '../../components/TryOthers';
+
 import { getFileExtension, getImagesWithType } from './utils';
 
 import { CreateStyles } from './styles';
@@ -328,6 +330,11 @@ const InfoScreen: FC = () => {
             </View>
           </View>
           <Button size="large" title="DOWNLOAD" onPress={checkPermission} />
+          {type !== SCREENS.WALLPAPERS && (
+            <View style={styles.tryOthersContainer}>
+              <TryOthers type={type} mainId={id} />
+            </View>
+          )}
         </View>
       </ScrollView>
     </>

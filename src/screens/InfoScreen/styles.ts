@@ -55,4 +55,7 @@ export const CreateStyles = (theme: Theme) =>
     gridContainer: {
       marginTop: 8,
     },
+    tryOthersContainer: {
+      marginTop: 8,
+    },
   });

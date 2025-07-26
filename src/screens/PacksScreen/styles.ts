@@ -8,7 +8,6 @@ export const createStyles = (theme: Theme) =>
       backgroundColor: theme.colors.background,
     },
     container: {
-      gap: 12,
       paddingVertical: 16,
       paddingHorizontal: 16,
     },
