@@ -2,7 +2,7 @@ import * as React from 'react';
 import Svg, { Path, SvgProps } from 'react-native-svg';
 
 const SearchIcon = (props: SvgProps) => {
-  const { fill, color } = props;
+  const { color } = props;
 
   return (
     <Svg width={20} height={20} viewBox="0 0 20 20" fill="none" {...props}>

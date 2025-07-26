@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { Theme } from 'theme/types';
 
-export const createStyles = (theme: Theme) =>
+export const createStyles = () =>
   StyleSheet.create({
     container: {
       flexDirection: 'column',

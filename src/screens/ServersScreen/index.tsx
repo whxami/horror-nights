@@ -2,13 +2,12 @@ import { FC } from 'react';
 import { ScrollView, View } from 'react-native';
 
 import serverData from 'assets/servers/servers.json';
+import Header from 'components/Header';
 import NothingFound from 'components/NothingFound';
 import ServerCard from 'components/ServerCard';
+import { SCREENS } from 'const/screens';
 import { useFilteredData } from 'hooks/useFilteredData';
 import { useThemedStyles } from 'theme/ThemeProvider';
-
-import Header from 'components/Header';
-import { SCREENS } from 'const/screens';
 
 import { createStyles } from './styles';
 

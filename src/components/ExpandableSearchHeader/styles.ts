@@ -46,5 +46,5 @@ export const createSearchHeaderStyles = (theme: Theme) =>
     },
     searchIcon: {
       color: theme.colors.background,
-    }
+    },
   });

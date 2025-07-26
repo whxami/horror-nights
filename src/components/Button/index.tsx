@@ -1,4 +1,4 @@
-import { CSSProperties, FC, useState } from 'react';
+import { FC, useState } from 'react';
 import { TouchableOpacity, Text, View } from 'react-native';
 
 import { useThemedStyles } from 'theme/ThemeProvider';

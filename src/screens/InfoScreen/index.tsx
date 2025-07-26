@@ -18,17 +18,16 @@ import uuid from 'react-native-uuid';
 import { zip } from 'react-native-zip-archive';
 import RNFetchBlob from 'rn-fetch-blob';
 
+import BackIcon from 'components/BackIcon';
 import Button from 'components/Button';
 import DownloadIcon from 'components/DownloadIcon';
+import ForwardIcon from 'components/ForwardIcon';
+import Header from 'components/Header';
 import HeartIcon from 'components/HeartIcon';
 import StarIcon from 'components/StarIcon';
 import { SCREENS } from 'const/screens';
 import { useThemedStyles } from 'theme/ThemeProvider';
 import { InfoData, InfoScreenParams } from 'types/navigationTypes';
-
-import BackIcon from '../../components/BackIcon';
-import ForwardIcon from '../../components/ForwardIcon';
-import Header from '../../components/Header';
 
 import { getFileExtension, getImagesWithType } from './utils';
 

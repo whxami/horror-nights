@@ -1,6 +1,5 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { SCREENS } from 'const/screens';
 import InfoScreen from 'screens/InfoScreen';
