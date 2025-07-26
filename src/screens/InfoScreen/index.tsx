@@ -28,6 +28,7 @@ import { InfoData, InfoScreenParams } from 'types/navigationTypes';
 
 import BackIcon from '../../components/BackIcon';
 import ForwardIcon from '../../components/ForwardIcon';
+import Header from '../../components/Header';
 
 import { getFileExtension, getImagesWithType } from './utils';
 
@@ -286,45 +287,51 @@ const InfoScreen: FC = () => {
   const { extraLikes, rating, id, extraFileWeight } = currentData;
 
   return (
-    <ScrollView style={styles.wrapper}>
-      <View style={styles.imageContainer}>
-        <FastImage
-          style={styles.image}
-          source={images[id]}
-          resizeMode="cover"
-        />
-        {isCarousel && (
-          <View style={styles.arrowsContainer}>
-            <TouchableOpacity
-              onPress={handlePrevious}
-              style={styles.arrowWrapper}
-            >
-              <BackIcon />
-            </TouchableOpacity>
-            <TouchableOpacity onPress={handleNext} style={styles.arrowWrapper}>
-              <ForwardIcon />
-            </TouchableOpacity>
-          </View>
-        )}
-      </View>
-      <View style={styles.container}>
-        <View style={styles.infoContainer}>
-          <View style={styles.infoItem}>
-            <StarIcon />
-            <Text style={styles.infoItemText}>{rating}</Text>
-          </View>
-          <View style={styles.infoItem}>
-            <DownloadIcon />
-            <Text style={styles.infoItemText}>{extraFileWeight}</Text>
-          </View>
-          <View style={styles.infoItem}>
-            <HeartIcon />
-            <Text style={styles.infoItemText}>{extraLikes}</Text>
-          </View>
+    <>
+      <Header title={type} withBackButton={type !== SCREENS.WALLPAPERS} />
+      <ScrollView style={styles.wrapper}>
+        <View style={styles.imageContainer}>
+          <FastImage
+            style={styles.image}
+            source={images[id]}
+            resizeMode="cover"
+          />
+          {isCarousel && (
+            <View style={styles.arrowsContainer}>
+              <TouchableOpacity
+                onPress={handlePrevious}
+                style={styles.arrowWrapper}
+              >
+                <BackIcon />
+              </TouchableOpacity>
+              <TouchableOpacity
+                onPress={handleNext}
+                style={styles.arrowWrapper}
+              >
+                <ForwardIcon />
+              </TouchableOpacity>
+            </View>
+          )}
         </View>
-        <Button size="large" title="DOWNLOAD" onPress={checkPermission} />
-      </View>
-    </ScrollView>
+        <View style={styles.container}>
+          <View style={styles.infoContainer}>
+            <View style={styles.infoItem}>
+              <StarIcon />
+              <Text style={styles.infoItemText}>{rating}</Text>
+            </View>
+            <View style={styles.infoItem}>
+              <DownloadIcon />
+              <Text style={styles.infoItemText}>{extraFileWeight}</Text>
+            </View>
+            <View style={styles.infoItem}>
+              <HeartIcon />
+              <Text style={styles.infoItemText}>{extraLikes}</Text>
+            </View>
+          </View>
+          <Button size="large" title="DOWNLOAD" onPress={checkPermission} />
+        </View>
+      </ScrollView>
+    </>
   );
 };
 

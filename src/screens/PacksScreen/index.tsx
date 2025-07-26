@@ -3,6 +3,7 @@ import { ScrollView, View } from 'react-native';
 
 import packsData from 'assets/packs/packs.json';
 import Card from 'components/Card';
+import Header from 'components/Header';
 import NothingFound from 'components/NothingFound';
 import { PACK_IMAGES } from 'const/images';
 import { SCREENS } from 'const/screens';
@@ -27,22 +28,25 @@ const PacksScreen: FC = () => {
   };
 
   return (
-    <ScrollView style={styles.wrapper}>
-      <View style={styles.container}>
-        {filteredPacksData.map((pack) => (
-          <Card
-            key={pack.id}
-            {...pack}
-            size="large"
-            onPress={() => {
-              handlePackPress(pack);
-            }}
-            image={PACK_IMAGES[pack.id]}
-            isImageContain={false}
-          />
-        ))}
-      </View>
-    </ScrollView>
+    <>
+      <Header title={SCREENS.PACKS} withSearch />
+      <ScrollView style={styles.wrapper}>
+        <View style={styles.container}>
+          {filteredPacksData.map((pack) => (
+            <Card
+              key={pack.id}
+              {...pack}
+              size="large"
+              onPress={() => {
+                handlePackPress(pack);
+              }}
+              image={PACK_IMAGES[pack.id]}
+              isImageContain={false}
+            />
+          ))}
+        </View>
+      </ScrollView>
+    </>
   );
 };
 

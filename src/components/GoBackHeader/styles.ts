@@ -10,6 +10,5 @@ export const createStyles = (theme: Theme) =>
       height: 32,
       alignItems: 'center',
       justifyContent: 'center',
-      marginLeft: 14,
     },
   });

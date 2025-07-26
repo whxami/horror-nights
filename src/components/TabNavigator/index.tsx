@@ -8,9 +8,8 @@ import InfoScreen from 'screens/InfoScreen';
 import ServersScreen from 'screens/ServersScreen';
 import packsStack from 'stacks/packsStack';
 import SkinsStack from 'stacks/skinStack';
-import { useTheme, useThemedStyles } from 'theme/ThemeProvider';
+import { useThemedStyles } from 'theme/ThemeProvider';
 import { RootTabParamList } from 'types/navigationTypes';
-import { createStackScreenOptions } from 'utils/createStackScreenOption';
 
 import { getTabBarIcon } from './utils';
 
@@ -21,8 +20,6 @@ const Tab = createBottomTabNavigator<RootTabParamList>();
 const TabNavigator: FC = () => {
   const insets = useSafeAreaInsets();
   const styles = useThemedStyles((theme) => createTabStyles(theme, insets));
-  const theme = useTheme();
-  const screenOptions = createStackScreenOptions(theme, insets);
 
   return (
     <Tab.Navigator
@@ -50,22 +47,17 @@ const TabNavigator: FC = () => {
       <Tab.Screen
         name={SCREENS.PACKS}
         component={packsStack}
-        options={screenOptions.mainScreenOptions(SCREENS.PACKS)}
+        options={{ headerShown: false }}
       />
       <Tab.Screen
         name={SCREENS.SERVERS}
         component={ServersScreen}
-        options={screenOptions.mainScreenOptions(SCREENS.SERVERS)}
+        options={{ headerShown: false }}
       />
       <Tab.Screen
         name={SCREENS.WALLPAPERS}
         component={InfoScreen}
-        options={{
-          title: SCREENS.WALLPAPERS,
-          headerStyle: styles.header,
-          headerTitleStyle: styles.headerTitle,
-          headerTintColor: styles.headerTitle.color,
-        }}
+        options={{ headerShown: false }}
         initialParams={{
           type: SCREENS.WALLPAPERS,
           allData: wallpapersData,

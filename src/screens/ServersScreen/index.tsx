@@ -7,6 +7,9 @@ import ServerCard from 'components/ServerCard';
 import { useFilteredData } from 'hooks/useFilteredData';
 import { useThemedStyles } from 'theme/ThemeProvider';
 
+import Header from 'components/Header';
+import { SCREENS } from 'const/screens';
+
 import { createStyles } from './styles';
 
 const ServersScreen: FC = () => {
@@ -18,13 +21,16 @@ const ServersScreen: FC = () => {
   }
 
   return (
-    <ScrollView>
-      <View style={styles.container}>
-        {filteredServersData.map((server) => (
-          <ServerCard key={server.id} {...server} />
-        ))}
-      </View>
-    </ScrollView>
+    <>
+      <Header title={SCREENS.SERVERS} withSearch />
+      <ScrollView>
+        <View style={styles.container}>
+          {filteredServersData.map((server) => (
+            <ServerCard key={server.id} {...server} />
+          ))}
+        </View>
+      </ScrollView>
+    </>
   );
 };
 

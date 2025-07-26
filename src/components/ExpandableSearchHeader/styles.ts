@@ -10,13 +10,10 @@ export const createSearchHeaderStyles = (theme: Theme) =>
       backgroundColor: theme.colors.background,
       justifyContent: 'center',
       alignItems: 'center',
-      marginRight: 14,
     },
     expandedWrapper: {
       flexDirection: 'row',
       alignItems: 'center',
-      paddingLeft: 12,
-      paddingRight: 14,
     },
     closeButton: {
       width: 32,
